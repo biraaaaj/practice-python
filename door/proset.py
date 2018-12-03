@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 swaps = {'ba':'ab', 'cb':'bc', 'ca':'ac'}
-string = 'abcabcba'
+string = input('Enter string with a, b, c')
 sorted_string = ''.join(sorted(string))
 
 while string != sorted_string:
