@@ -21,7 +21,7 @@ for num in range (5094,4490,-1):
 
 	img_link=f'https://files.explosm.net/comics/{img_char}/{img_name}'
 	csv_writer.writerow([img_char,img_name,img_link])
-	print(img_link)
+	print(img_link) 
 	time.sleep(1)
 csv_file.close()
 
